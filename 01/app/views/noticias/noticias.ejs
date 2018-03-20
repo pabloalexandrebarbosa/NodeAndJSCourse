@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+	<html lang="pt-br">
+		<head>
+			<meta charset="utf-8"/>
+			<title>Noticias</title>
+		</head>
+	<body>
+
+		<h1>Noticias</h1>
+		<hr/>
+		<% for(i=0;i<noticias.length;i++) {%>
+		<h2><%=noticias[i].titulo %> - <%=noticias[i].data_criacao %></h2>
+		<h3><%=noticias[i].noticia %></h3>
+		<%}%>
+	</body>
+</html>
